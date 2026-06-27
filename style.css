@@ -1,0 +1,66 @@
+#navbar{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-evenly;
+    gap: 15px;
+
+}
+@media screen and (max-width: 768px){
+    #navbar {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+body{
+    background-image: url("myimage.png");
+    background-size: cover;
+
+}
+H4{
+    text-align: center;
+    margin-top: 150px;
+    color: white;
+}
+h1{
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+}
+p{
+    font-family: arial;
+    text-align: center;
+    color: white;
+}
+button{
+    margin-top: 20px;
+    background-color: blue;
+    color: white;
+    
+    border-radius: 20%;
+    margin-left: 570px;
+    height: 38px;
+
+
+}
+button{
+    transition: all 0.3s ease-in-out; 
+
+
+}
+button:hover {
+    background-color: greenyellow; /* Rang thora dark ho jayega */
+    transform: translateY(-3px); /* Button thora sa upar uthega (Animate hoga) */
+    box-shadow: 0px 5px 15px rgba(72, 43, 231, 0.4);
+}
+a:hover{
+     background-color: rgb(198, 30, 50); /* Rang thora dark ho jayega */
+    transform: translateY(-3px); /* Button thora sa upar uthega (Animate hoga) */
+    box-shadow: 0px 5px 15px rgba(72, 43, 231, 0.4);
+}
+a{
+    color: white;
+}
+
+
